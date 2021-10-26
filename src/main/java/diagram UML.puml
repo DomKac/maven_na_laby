@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Figura_interface{
+
+    abstract public double obwod();
+    abstract public double pole();
+}
+
+class Figura implements Figura_interface{}
+
+class Czworokat extends Figura {}
+class Kolo extends Figura{}
+class Kwadrat extends Czworokat{}
+class Pieciokat extends Figura{}
+class Prostokat extends Czworokat{}
+class Romb extends Czworokat{}
+class Szesciokat extends Figura{}
+
+class Ujemna extends Exception{}
+
+class Main {}
+
+@enduml

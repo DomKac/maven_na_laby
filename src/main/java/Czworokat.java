@@ -3,6 +3,8 @@ abstract public class Czworokat extends Figura {
 
 protected double bok1, bok2, bok3, bok4, kat;
 
+// komentarz
+
     Czworokat(double bok1, double bok2, double bok3, double bok4, double kat){
 
         this.bok1 = bok1;
